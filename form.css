@@ -1,0 +1,19 @@
+div{
+    border: 2px solid green;
+    height: 50px;
+    width: 50px;
+    border-radius: 1em;
+    position: absolute;
+    animation: move 1s linear infinite;
+    display: block;
+    align-items: center;
+    margin: 100px;
+}
+@keyframes move {
+    0%{background-color: red; left:0px;top:0px;}
+    25%{background-color: rgb(0,255,0);left:200px;top:0px;}
+    50%{background-color: rgb(0,0,255);left:200px;top:200px;}
+    75%{background-color: rgb(255,255,0);left:0px;top:200px;}
+    100%{background-color: rgb(0,255,255);left:0px;top:0px;}
+
+}
